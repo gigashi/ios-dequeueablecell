@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12A02D63230BBBAA006B3818 /* ReusableCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A02D63230BBBAA006B3818 /* DequeueableCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DequeueableCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A02D66230BBBAA006B3818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A02D68230BBBAA006B3818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12A02D6B230BBBAA006B3818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		12A02D5A230BBBAA006B3818 = {
 			isa = PBXGroup;
 			children = (
-				12A02D65230BBBAA006B3818 /* ReusableCell */,
+				12A02D65230BBBAA006B3818 /* DequeueableCell */,
 				12A02D64230BBBAA006B3818 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		12A02D64230BBBAA006B3818 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12A02D63230BBBAA006B3818 /* ReusableCell.app */,
+				12A02D63230BBBAA006B3818 /* DequeueableCell.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		12A02D65230BBBAA006B3818 /* ReusableCell */ = {
+		12A02D65230BBBAA006B3818 /* DequeueableCell */ = {
 			isa = PBXGroup;
 			children = (
 				12A02D66230BBBAA006B3818 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				12A02D72230BBBAE006B3818 /* Info.plist */,
 				12A02D78230BC755006B3818 /* DequeueableCell.swift */,
 			);
-			path = ReusableCell;
+			path = DequeueableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		12A02D62230BBBAA006B3818 /* ReusableCell */ = {
+		12A02D62230BBBAA006B3818 /* DequeueableCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12A02D75230BBBAE006B3818 /* Build configuration list for PBXNativeTarget "ReusableCell" */;
+			buildConfigurationList = 12A02D75230BBBAE006B3818 /* Build configuration list for PBXNativeTarget "DequeueableCell" */;
 			buildPhases = (
 				12A02D5F230BBBAA006B3818 /* Sources */,
 				12A02D60230BBBAA006B3818 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = ReusableCell;
-			productName = ReusableCell;
-			productReference = 12A02D63230BBBAA006B3818 /* ReusableCell.app */;
+			name = DequeueableCell;
+			productName = DequeueableCell;
+			productReference = 12A02D63230BBBAA006B3818 /* DequeueableCell.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 12A02D5E230BBBAA006B3818 /* Build configuration list for PBXProject "ReusableCell" */;
+			buildConfigurationList = 12A02D5E230BBBAA006B3818 /* Build configuration list for PBXProject "DequeueableCell" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				12A02D62230BBBAA006B3818 /* ReusableCell */,
+				12A02D62230BBBAA006B3818 /* DequeueableCell */,
 			);
 		};
 /* End PBXProject section */
@@ -288,13 +288,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = ReusableCell/Info.plist;
+				INFOPLIST_FILE = DequeueableCell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.gigashi.ReusableCell;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.gigashi.DequeueableCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,13 +307,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = ReusableCell/Info.plist;
+				INFOPLIST_FILE = DequeueableCell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.gigashi.ReusableCell;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.gigashi.DequeueableCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12A02D5E230BBBAA006B3818 /* Build configuration list for PBXProject "ReusableCell" */ = {
+		12A02D5E230BBBAA006B3818 /* Build configuration list for PBXProject "DequeueableCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12A02D73230BBBAE006B3818 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12A02D75230BBBAE006B3818 /* Build configuration list for PBXNativeTarget "ReusableCell" */ = {
+		12A02D75230BBBAE006B3818 /* Build configuration list for PBXNativeTarget "DequeueableCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12A02D76230BBBAE006B3818 /* Debug */,

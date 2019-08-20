@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ReusableCell
+//  DequeueableCell
 //
 //  Created by Yoshiki Higashi on 2019/08/20.
 //  Copyright © 2019 gigashi. All rights reserved.

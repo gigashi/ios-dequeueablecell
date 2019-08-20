@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ReusableCell
+//  DequeueableCell
 //
 //  Created by higashi_yo on 2019/08/20.
 //  Copyright © 2019 gigashi. All rights reserved.
